@@ -1,0 +1,11 @@
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main .col1 {
+  width: 50%;
+  background-color: #000000;
+}
+/*# sourceMappingURL=home.css.map */
