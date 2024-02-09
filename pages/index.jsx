@@ -111,20 +111,59 @@ export default function Home() {
                   <p>Sat, Sep 12</p>
                 </div>
               </div>
+              <div className={styles.shopping}>
+                <p>
+                  <span>0/3</span> Shopping list
+                </p>
+                <p>+ Add an item</p>
+              </div>
+
+              <div className={styles.checkbox}>
+                <div className={styles.container}>
+                  <label class="container">
+                    <input type="checkbox" />
+                    Macbook
+                    <span class="checkmark"></span>
+                  </label>
+                </div>
+                <div className={styles.container}>
+                  <label class="container">
+                    <input type="checkbox" />
+                    Bicycle
+                    <span class="checkmark"></span>
+                  </label>
+                </div>
+                <div className={styles.container}>
+                  <label class="container">
+                    <input type="checkbox" />
+                    Motorcycle
+                    <span class="checkmark"></span>
+                  </label>
+                </div>
+                <div className={styles.container}>
+                  <label class="container">
+                    <input type="checkbox" />
+                    Iphone 14 pro max
+                    <span class="checkmark"></span>
+                  </label>
+                </div>
+              </div>
             </div>
             <div className={styles.chats}>
               <TitleHeader text={"Ester Howard"} />
-              <div className={styles.time}>
+              <div className={styles.chatme}>
+                <div className={styles.bubble}>Are you ready ?</div>
                 <div>
-                  <h3>02:00</h3>
-                  <p>Sat, Aug 12</p>
-                </div>
-                <MdArrowForwardIos className={styles.icon} />
-                <div>
-                  <h3>05:00</h3>
-                  <p>Sat, Sep 12</p>
+                  <IoPersonOutline />
                 </div>
               </div>
+              <div className={styles.chatyou}>
+                <div>
+                  <IoPersonOutline />
+                </div>
+                <div className={styles.bubble}>I have prepaid Preating</div>
+              </div>
+              <input type="text" width={100} placeholder="Type a message" />
             </div>
           </div>
           <div className={styles.contentthird}>
